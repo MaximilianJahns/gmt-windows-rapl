@@ -1,0 +1,13 @@
+@"
+# Compiled
+*.dll
+*.exe
+*.obj
+*.lib
+*.exp
+*.pdb
+
+# Python
+__pycache__/
+*.pyc
+"@ | Out-File -Encoding utf8 .gitignore
